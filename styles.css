@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+.line {
+  color: red;
+  text-decoration: line-through;
+}
+
+button {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+body {
+  margin: 0px 0px 8px 0px;
+  color: aliceblue;
+}
+
+body {
+  background-image: url("lightBulb.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left;
+  background-size: cover;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+header h1 {
+  position: relative;
+  margin-top: 0px;
+  padding: 0.5em;
+  text-align: center;
+  font-size: 4em;
+}
+
+section {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+input {
+  width: 50%;
+  font-size: 1.5em;
+}
+
+ol {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5em;
+  margin: auto;
+  list-style-position: inside;
+  background-color: rgba(0, 0, 0, 0.6);
+}
