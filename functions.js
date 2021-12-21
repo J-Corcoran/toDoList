@@ -1,13 +1,13 @@
-var arrayId = [1, 2, 3];
+var input = document.getElementById("myInputBox");
 
-var input = document.getElementById('myInputBox');
-input.addEventListener("keyup", function(event){
-    if (event.keycode === 13){
-        document.getElementById("myBtn").click();
-    }
-})
+input.addEventListener("keyup", (event)=> {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("myBtn").click();
+  }
+});
 
-let addToDo = () =>{
+const addToDo = () =>{
     const item = document.querySelector('input').value;
     const myList = document.getElementById('toDoList');
 
